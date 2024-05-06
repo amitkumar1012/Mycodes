@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  img {
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  

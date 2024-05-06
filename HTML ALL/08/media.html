@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Media Query Example</title>
+<style>
+   
+body {
+  font-family: sans-serif;
+}
+
+@media print {
+  body {
+    background-color: white; 
+    color: black;           
+  }
+
+  .print-only {
+    display: block;        
+  }
+
+  .screen-only {
+    display: none;           
+  }
+}
+
+@media screen {
+  body {
+    background-color: lightblue; 
+
+  .print-only {
+    display: none;           
+  }
+
+  .screen-only {
+    display: block;          
+  }
+}
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is some content.</p>
+
+<div class="print-only">This content will only appear when printed.</div>
+<div class="screen-only">This content will only appear on screen.</div>
+
+</body>
+</html>
