@@ -1,0 +1,52 @@
+1.	<!DOCTYPE html>  
+2.	<html>  
+3.	<head>  
+4.	<meta name="viewport" content="width=device-width, initial-scale=1">  
+5.	<style>  
+6.	   body{  
+7.	      text-align:center;  
+8.	   }  
+9.	* {box-sizing: border-box;}  
+10.	  
+11.	.container {  
+12.	  position: relative;  
+13.	  width: 50%;  
+14.	  max-width: 300px;  
+15.	}  
+16.	  
+17.	.image {  
+18.	  display: block;  
+19.	  width: 100%;  
+20.	  height: auto;  
+21.	}  
+22.	  
+23.	.overlay {  
+24.	  position: absolute;   
+25.	  bottom: 0;   
+26.	  background: rgba(0, 0, 0, 0.2);   
+27.	  width: 100%;  
+28.	  opacity:0;   
+29.	  transition: .9s ease;  
+30.	  font-size: 25px;  
+31.	  padding: 20px;  
+32.	}  
+33.	  
+34.	.container:hover .overlay {  
+35.	  opacity: 1.5;  
+36.	}  
+37.	</style>  
+38.	</head>  
+39.	<body>  
+40.	  
+41.	<h1>Image Overlay Title Effect</h1>  
+42.	<h2>Move your mouse over the image to see the effect.</h2>  
+43.	  
+44.	<center>  
+45.	<div class="container">  
+46.	      <img src="jtp.png" class="image">  
+47.	      <div class="overlay">Welcome to google page</div>  
+48.	</div> </center>  
+49.	  
+50.	  
+51.	</body>  
+52.	</html>  
